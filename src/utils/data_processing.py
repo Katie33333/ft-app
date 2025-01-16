@@ -11,3 +11,11 @@ def calculate_weekly_average(data):
 
 def prepare_data_for_visualization(weekly_average):
     return weekly_average.reset_index()
+
+#def calculate_monthly_average(data):
+#    data.set_index('Date (US)', inplace=True)
+#    monthly_average = data.resample('M').mean().reset_index()
+#    return monthly_average
+
+#def prepare_data_for_visualization(weekly_average):
+#    return weekly_average.reset_index()
